@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top_backgroud"
+    tools:context=".SettingsActivity">
+
+    <ImageView
+        android:id="@+id/backArrow"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/left22" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backArrow"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="57dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="8dp"
+            android:padding="5dp"
+            android:src="@color/white"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/backArrow"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/plus"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="-30dp"
+            app:srcCompat="@drawable/plus" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:text="User Name:"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter your name"
+
+                android:inputType="text"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textColorHint="#000000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:text="About :"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="About"
+                android:inputType="text"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textColorHint="#050505" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_background"
+            android:padding="5dp"
+            android:text="Save"
+
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold">
+
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+        android:layout_alignParentBottom="true"
+
+        android:background="@drawable/linear_bg"
+        android:orientation="vertical"
+        android:padding="50dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="50dp"
+                android:drawableLeft="@drawable/privecy"
+                android:drawablePadding="15dp"
+                android:padding="5dp"
+                android:text="Privacy Policy "
+                android:textColor="@color/bgWhite"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="50dp"
+                android:drawableLeft="@drawable/aboutus"
+                android:drawablePadding="15dp"
+                android:padding="5dp"
+                android:text="About Us"
+                android:textColor="@color/bgWhite"
+
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="50dp"
+                android:drawableLeft="@drawable/invite"
+                android:drawablePadding="15dp"
+                android:padding="5dp"
+                android:textColor="@color/bgWhite"
+
+                android:text="Invite a Friend"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="50dp"
+                android:drawableLeft="@drawable/notification"
+                android:drawablePadding="15dp"
+                android:padding="5dp"
+                android:textColor="@color/bgWhite"
+
+                android:text="Notification"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/question"
+                android:drawablePadding="15dp"
+                android:padding="5dp"
+                android:textColor="@color/bgWhite"
+
+                android:text="Help"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GroupChatActivity" android:background="@color/black2">
+
+
+    <LinearLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/button_background"
+        android:elevation="12dp"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/white"
+        app:tabMaxWidth="0dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@color/white">
+
+        <ImageView
+            android:id="@+id/backArrow"
+            android:layout_width="45dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/left22" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/groupImage"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:padding="5dp"
+            android:src="@drawable/man"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/groupName"
+            android:layout_width="183dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="12dp"
+            android:text="Group name"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.854"
+            app:layout_constraintVertical_bias="0.5" />
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatRecyclarView"
+        android:layout_width="match_parent"
+        android:layout_height="648dp"
+        android:layout_above="@id/bottom_layout"
+        android:layout_below="@+id/tablayout"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="-1dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/etMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/send"
+            android:background="@drawable/button_background"
+            android:hint="Write here "
+            android:padding="16dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
+
+        <ImageButton
+            android:id="@+id/send"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="8dp"
+
+            android:src="@drawable/send" />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

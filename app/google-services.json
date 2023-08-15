@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "165058122905",
+    "project_id": "paira10-243d9",
+    "storage_bucket": "paira10-243d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165058122905:android:bb3c25a506c81a2c4a5408",
+        "android_client_info": {
+          "package_name": "com.example.paira10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165058122905-rtn483ttjr5ko89v9fpmqairnv5pivb4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ0pOEKz5qMvN9nI16kC1QIJyyWFMi4A4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165058122905-rtn483ttjr5ko89v9fpmqairnv5pivb4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
