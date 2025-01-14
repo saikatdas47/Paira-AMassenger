@@ -34,27 +34,24 @@ A modern, lightweight, and secure messaging app built with **Java**, **Android S
   <tr>
     <td><img src="https://github.com/saikatdas47/Paira-AMassenger/assets/98844060/1b675fee-b022-44b9-ad6f-a1507732fe71" width="400"></td>
     <td><img src="https://github.com/saikatdas47/Paira-AMassenger/assets/98844060/a203b1fe-1329-4d0d-bbc1-c88631faa46b" width="400"></td>
+         <td><img src="https://github.com/saikatdas47/Paira-AMassenger/assets/98844060/3a5730b4-da43-4378-92eb-9cf1841c5836" width="400"></td>
+
   </tr>
 </table>  
 <table>
   <tr>
-    <td><img src="https://github.com/saikatdas47/Paira-AMassenger/assets/98844060/3a5730b4-da43-4378-92eb-9cf1841c5836" width="400"></td>
     <td><img src="https://github.com/saikatdas47/Paira-AMassenger/assets/98844060/2939628f-2c7a-4027-8465-d050a40ddbf6" width="400"></td>
-  </tr>
-</table>  
-<table>
-  <tr>
-    <td><img src="https://github.com/saikatdas47/Paira-AMassenger/assets/98844060/61559159-8f32-46ee-9263-dbdb4f55bdaa" width="400"></td>
+         <td><img src="https://github.com/saikatdas47/Paira-AMassenger/assets/98844060/61559159-8f32-46ee-9263-dbdb4f55bdaa" width="400"></td>
     <td><img src="https://github.com/saikatdas47/Paira-AMassenger/assets/98844060/69e2002b-842a-43a5-8828-06e6ea1dc597" width="400"></td>
   </tr>
 </table>  
 <table>
   <tr>
-    <td><img src="https://github.com/saikatdas47/Paira-AMassenger/assets/98844060/ac544b37-a2eb-4786-883b-fcca48a8f8da" width="400"></td>
+<td><img src="https://github.com/saikatdas47/Paira-AMassenger/assets/98844060/ac544b37-a2eb-4786-883b-fcca48a8f8da" width="400"></td>
     <td><img src="https://github.com/saikatdas47/Paira-AMassenger/assets/98844060/0e353cba-af94-499e-93fd-5b0693ec2665" width="400"></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/saikatdas47/Paira-AMassenger/assets/98844060/5b476dce-96c2-461a-b6bc-171f59f58283" width="400"></td>
-    <td><img src="https://github.com/saikatdas47/Paira-AMassenger/assets/98844060/2939628f-2c7a-4027-8465-d050a40ddbf6" width="400"></td>
+      <td><img src="https://github.com/saikatdas47/Paira-AMassenger/assets/98844060/5b476dce-96c2-461a-b6bc-171f59f58283" width="400"></td>
+      <td><img src="https://github.com/saikatdas47/Paira-AMassenger/assets/98844060/2939628f-2c7a-4027-8465-d050a40ddbf6" width="400"></td>
   </tr>
 </table>  
+
+ 
